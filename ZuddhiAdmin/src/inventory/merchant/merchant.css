@@ -1,0 +1,82 @@
+#merchant {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#merchant td,
+#merchant th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#merchant th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4caf50;
+  color: white;
+  white-space: nowrap;
+}
+
+#merchant th:nth-child(1),
+#merchant th:nth-child(2),
+#merchant th:nth-child(3),
+#merchant th:nth-child(4),
+#merchant th:nth-child(5) {
+  text-align: left;
+}
+
+#merchant tr:hover {
+  background-color: #ddd;
+}
+
+#merchant tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#merchant td:nth-child(1) {
+  text-align: right;
+  width: 60px;
+}
+
+#merchant td:nth-child(1) a {
+  text-decoration: none;
+}
+
+#merchant td:nth-child(1) a:hover {
+  text-decoration: none;
+}
+
+#merchant td:nth-child(3),
+#merchant td:nth-child(4),
+#merchant td:nth-child(5) {
+  text-align: left;
+  width: auto;
+}
+
+#merchant td:nth-child(6) {
+  text-align: center;
+  width: 100px;
+}
+
+#merchant td:nth-child(7) {
+  text-align: center;
+  width: 210px;
+  white-space: nowrap;
+}
+
+#merchant td:nth-child(8) {
+  text-align: center;
+  width: 125px;
+}
+
+.modal-merchant {
+  width: auto;
+  height: 100%;
+  padding: 10px;
+}
+
+#merchantinput {
+  padding: 5px;
+}

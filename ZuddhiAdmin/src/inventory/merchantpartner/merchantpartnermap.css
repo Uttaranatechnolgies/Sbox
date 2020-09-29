@@ -1,0 +1,83 @@
+#merchantpartnermap {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#merchantpartnermap td,
+#merchantpartnermap th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#merchantpartnermap th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4caf50;
+  color: white;
+  white-space: nowrap;
+}
+
+#merchantpartnermap tr:hover {
+  background-color: #ddd;
+}
+
+#merchantpartnermap tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#merchantpartnermap th:nth-child(1) {
+  text-align: left;
+  width: 60px;
+}
+
+/* #merchantpartnermap th:nth-child(2),
+#merchantpartnermap th:nth-child(3),
+#merchantpartnermap th:nth-child(4) {
+  text-align: left;
+}
+
+#merchantpartnermap td:nth-child(1) {
+  text-align: right;
+}
+
+#merchantpartnermap td:nth-child(1) a {
+  text-decoration: none;
+}
+
+#merchantpartnermap td:nth-child(1) a:hover {
+  text-decoration: none;
+}
+
+#merchantpartnermap td:nth-child(2),
+#merchantpartnermap td:nth-child(3),
+#merchantpartnermap td:nth-child(4) {
+  text-align: left;
+  width: auto;
+}
+
+#merchantpartnermap td:nth-child(5) {
+  text-align: center;
+  width: 125px;
+}
+
+#merchantpartnermap td:nth-child(6) {
+  text-align: center;
+  width: 80px;
+}
+
+#merchantpartnermap td:nth-child(7) {
+  text-align: center;
+  width: 125px;
+}*/
+
+#merchantpartnermap td:nth-child(8) {
+  text-align: center;
+  width: 110px;
+}
+
+#merchantpartnermap td:nth-child(9) {
+  text-align: left;
+  width: 125px;
+}

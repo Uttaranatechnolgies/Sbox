@@ -1,0 +1,82 @@
+#partner {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#partner td,
+#partner th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#partner th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4caf50;
+  color: white;
+  white-space: nowrap;
+}
+
+#partner th:nth-child(1),
+#partner th:nth-child(2),
+#partner th:nth-child(3),
+#partner th:nth-child(4),
+#partner th:nth-child(5) {
+  text-align: left;
+}
+
+#partner tr:hover {
+  background-color: #ddd;
+}
+
+#partner tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#partner td:nth-child(1) {
+  text-align: right;
+  width: 60px;
+}
+
+#partner td:nth-child(1) a {
+  text-decoration: none;
+}
+
+#partner td:nth-child(1) a:hover {
+  text-decoration: none;
+}
+
+#partner td:nth-child(3),
+#partner td:nth-child(4),
+#partner td:nth-child(5) {
+  text-align: left;
+  width: auto;
+}
+
+#partner td:nth-child(6) {
+  text-align: center;
+  width: 100px;
+}
+
+#partner td:nth-child(7) {
+  text-align: center;
+  width: 210px;
+  white-space: nowrap;
+}
+
+#partner td:nth-child(8) {
+  text-align: center;
+  width: 125px;
+}
+
+.modal-partner {
+  width: auto;
+  height: 100%;
+  padding: 10px;
+}
+
+#partnerinput {
+  padding: 5px;
+}

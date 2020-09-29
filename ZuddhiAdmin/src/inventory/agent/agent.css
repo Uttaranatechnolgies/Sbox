@@ -1,0 +1,82 @@
+#agents {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#agents td,
+#agents th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#agents th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4caf50;
+  color: white;
+}
+
+#agents th:nth-child(1) {
+  text-align: left;
+  width: 60px;
+}
+
+#agents th:nth-child(2),
+#agents th:nth-child(3),
+#agents th:nth-child(4),
+#agents th:nth-child(5),
+#agents th:nth-child(6) {
+  text-align: left;
+}
+
+#agents tr:hover {
+  background-color: #ddd;
+}
+
+#agents tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#agents td:nth-child(1) {
+  text-align: right;
+}
+
+#agents td:nth-child(1) a {
+  text-decoration: none;
+}
+
+#agents td:nth-child(1) a:hover {
+  text-decoration: none;
+}
+
+#agents td:nth-child(2),
+#agents td:nth-child(3),
+#agents td:nth-child(4),
+#agents td:nth-child(5),
+#agents td:nth-child(6) {
+  text-align: left;
+  width: auto;
+}
+
+#agents td:nth-child(7),
+#agents td:nth-child(8) {
+  text-align: center;
+  width: 100px;
+}
+
+#agents td:nth-child(9) {
+  text-align: left;
+  width: 115px;
+}
+
+.modal-agent {
+  width: auto;
+  height: 100%;
+  padding: 10px;
+}
+
+#agentinput {
+  padding: 5px;
+}

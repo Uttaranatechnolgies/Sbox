@@ -1,0 +1,65 @@
+#regions {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#regions td,
+#regions th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#regions th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4caf50;
+  color: white;
+}
+
+#regions tr:hover {
+  background-color: #ddd;
+}
+
+#regions tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#regions th:nth-child(1) {
+  text-align: left;
+  width: 60px;
+}
+
+#regions td:nth-child(1) {
+  text-align: right;
+}
+
+#regions td:nth-child(1) a {
+  text-decoration: none;
+}
+
+#regions td:nth-child(1) a:hover {
+  text-decoration: none;
+}
+
+#regions th:nth-child(2) {
+  text-align: left;
+  width: auto;
+}
+
+#regions td:nth-child(3) {
+  text-align: center;
+  width: 125px;
+}
+
+#regions td:nth-child(4) {
+  text-align: left;
+  width: 125px;
+}
+
+.modal-region {
+  width: 350px;
+  height: 100%;
+  padding: 10px;
+}

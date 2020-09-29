@@ -1,0 +1,82 @@
+#company {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#company td,
+#company th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#company th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4caf50;
+  color: white;
+  white-space: nowrap;
+}
+
+#company th:nth-child(1),
+#company th:nth-child(2),
+#company th:nth-child(3),
+#company th:nth-child(4),
+#company th:nth-child(5) {
+  text-align: left;
+}
+
+#company tr:hover {
+  background-color: #ddd;
+}
+
+#company tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#company td:nth-child(1) {
+  text-align: right;
+  width: 60px;
+}
+
+#company td:nth-child(1) a {
+  text-decoration: none;
+}
+
+#company td:nth-child(1) a:hover {
+  text-decoration: none;
+}
+
+#company td:nth-child(3),
+#company td:nth-child(4),
+#company td:nth-child(5) {
+  text-align: left;
+  width: auto;
+}
+
+#company td:nth-child(6) {
+  text-align: center;
+  width: 100px;
+}
+
+#company td:nth-child(7) {
+  text-align: center;
+  width: 210px;
+  white-space: nowrap;
+}
+
+#company td:nth-child(8) {
+  text-align: center;
+  width: 125px;
+}
+
+.modal-company {
+  width: auto;
+  height: 100%;
+  padding: 10px;
+}
+
+#companyinput {
+  padding: 5px;
+}

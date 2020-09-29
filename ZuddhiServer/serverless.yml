@@ -1,0 +1,16 @@
+service: zuddhi-transact-api #Name of your App
+
+provider:
+  name: aws
+  runtime: nodejs12.x # Node JS version
+  memorySize: 512
+  timeout: 15
+  stage: development
+  region: ap-south-1 # AWS region
+
+functions:
+  api:
+    handler: transact.handler
+    events:
+      - http: ANY {proxy+}
+      - http: ANY /

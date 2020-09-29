@@ -1,0 +1,307 @@
+header {
+  flex-shrink: 0;
+  color: #ffffff;
+  vertical-align: middle;
+  background-color: #134c7d;
+  height: 50px;
+}
+
+header .headertitle {
+  flex-shrink: 0;
+  color: #ffffff;
+  background-color: #134c7d;
+  position: relative;
+  font-weight: bold;
+  font-size: 26px;
+  margin-left: 15px;
+  top: 10px;
+  vertical-align: middle;
+}
+
+footer {
+  height: 25px;
+  flex-shrink: 0;
+  background-color: #134c7d;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+}
+
+main {
+  flex: 1 0 auto;
+  margin: 10px;
+}
+
+.loginmain {
+  flex: 1 0 auto;
+  margin: 50px;
+}
+
+.mnucontainer {
+  margin: 0px;
+}
+
+.mnucontainer .sidebar {
+  background-color: #f1f1f1;
+  height: 100%;
+  overflow: auto;
+}
+
+.mnucontainer .parentmenu {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.loader-modal {
+  position: fixed;
+  background: transparent;
+  color: #4caf50;
+  width: auto;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-dialog {
+  width: auto;
+  height: auto;
+  background: #ffffff;
+  border: 0px solid;
+  padding: 10px;
+  box-shadow: 0px 8px 36px #222;
+  top: 20%;
+  left: 40%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-dialog-header {
+  display: flex;
+  justify-content: center;
+  font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 1.35em;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #134c7d;
+  padding: 10px;
+}
+
+.modal-dialog-footer {
+  background-color: #ffffff;
+  padding: 0px;
+  text-align: right;
+  color: white;
+}
+
+.modal-dialog-body {
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.modal-dialog-cancel {
+  padding: 0px;
+  margin: 0px 8px 0px 0px;
+  min-width: 100px;
+  width: 100px;
+  height: 40px;
+  background-color: #222;
+  border-radius: 5px;
+}
+
+.modal-dialog-submit {
+  padding: 0px;
+  margin: 0px;
+  min-width: 100px;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.model-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.model-input-error {
+  color: red;
+  font-weight: bold;
+}
+
+.model-input-success {
+  color: green;
+  font-weight: bold;
+}
+
+.modal-popupbox {
+  width: 350px;
+  height: 100%;
+  padding: 10px;
+}
+
+.deleteIcon {
+  width: 13px;
+  height: 14px;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+.deleteIcon-body {
+  margin-top: 20px;
+  width: 300px;
+  height: 100%;
+  padding: 10px;
+}
+
+.linkitem {
+  color: inherit;
+  cursor: pointer;
+}
+
+.linkitem:hover {
+  color: #134c7d;
+}
+
+.row {
+  height: 50px;
+  margin-bottom: 2px;
+}
+
+.navlocleft {
+  float: left;
+  width: 100%;
+  margin-left: 2px;
+  font-size: 32px;
+  font-weight: bold;
+}
+.navlocright {
+  float: left;
+  text-align: right;
+  width: 100px;
+  margin-right: 2px;
+}
+
+.column1 {
+  float: left;
+  width: 100%;
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+}
+
+.column3 {
+  float: left;
+  width: 33%;
+}
+.column4 {
+  float: left;
+  width: 25%;
+}
+.column5 {
+  float: left;
+  width: 20%;
+}
+
+.borderclass {
+  border: 1px solid #000000;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.button {
+  height: 25px;
+  margin: 0;
+  padding: 0;
+  background-color: #555555; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
